@@ -1,0 +1,7 @@
+<template name="paragraph">
+    <view class="paragraph">
+        <text class="title">{{ p.title }}</text>
+        <text class="sub-title">{{ p.subTitle }}</text>
+        <text class="content">{{ p.content }}</text>
+    </view>
+</template>

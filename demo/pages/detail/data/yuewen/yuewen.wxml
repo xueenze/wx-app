@@ -1,0 +1,5 @@
+<import src="../../../../components/paragraph/paragraph.wxml" />
+
+<view class="content-container">
+    <template is="paragraph" data="{{ p: paragraph1 }}"/>
+</view>

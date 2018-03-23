@@ -1,0 +1,5 @@
+.card-list .cover{
+    width: 100%;
+    height: 352rpx;
+    vertical-align: bottom;
+}

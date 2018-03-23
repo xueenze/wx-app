@@ -1,0 +1,5 @@
+<template name="card">
+    <view class="card-list">
+        <image class="cover" src="{{ card.imageUrl }}" alt=""></image>
+    </view>
+</template>

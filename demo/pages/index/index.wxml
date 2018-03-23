@@ -1,0 +1,14 @@
+
+<import src="../../components/card/card.wxml" />
+
+<view class="container">
+  <scroll-view style="height: {{ windowHeight }}px; width: {{ windowWidth }}px;"
+    class="card-list"
+    scroll-y="true"
+    bindscrolltoupper="upper"
+    bindscrolltolower="lower">
+      <block wx:for="{{ cards }}" wx:for-item="card" wx:key="card.id">
+        <template is="card" data="{{ card }}"/>
+      </block>
+  </scroll-view>
+</view>
