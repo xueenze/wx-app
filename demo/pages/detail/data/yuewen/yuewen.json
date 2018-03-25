@@ -1,3 +1,6 @@
 {
-    "navigationBarTitleText": "阅文 2017 财报"
+    "navigationBarTitleText": "阅文 2017 财报",
+    "usingComponents": {
+        "ec-canvas": "../../../../lib/ec-canvas/ec-canvas"
+    }
 }

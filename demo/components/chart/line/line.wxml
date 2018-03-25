@@ -1,6 +1,6 @@
 <template name="chart-line">
-    <view class="container">
-        <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}">
+    <view class="line-container">
+        <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ecLine }}">
         </ec-canvas>
     </view>
 </template>

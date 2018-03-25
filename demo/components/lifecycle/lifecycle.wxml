@@ -1,0 +1,25 @@
+<template name="lifecycle">
+    <view class="lifecycle">
+        <view class="day-marker">
+            <text class="circle"></text>
+            {{ lifecycle.date }}
+        </view>
+        <view class="vertical-line"></view>
+        <view class="life-point">
+            <view class="photo">
+                <image class="cover" src="{{ lifecycle.imgUrl }}" mode="widthFix">
+                </image>
+            </view>
+            <view class="content">{{ lifecycle.content }}</view>
+            <view class="shot-stats">
+                <view class="shot-time">
+                    <image class="icon-time" src="/images/time.png">
+                    </image>
+                    {{ lifecycle.shotTime }}
+                </view>
+            </view>
+        </view>
+        <view class="vertical-line"></view>
+        <view class="vertical-line"></view>
+    </view>
+</template>

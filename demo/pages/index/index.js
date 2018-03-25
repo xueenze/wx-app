@@ -1,8 +1,8 @@
 const App = getApp();
+
 Page({
     data: {
-        cards:[
-            {
+        cards: [{
                 id: 1,
                 imageUrl: "../../images/card/card-demo.jpg"
             },
@@ -22,6 +22,5 @@ Page({
         windowWidth: App.systemInfo.windowWidth,
         windowHeight: App.systemInfo.windowHeight
     },
-    onLoad: function() {
-    }
+    onLoad: function() {}
 });

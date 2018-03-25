@@ -1,0 +1,7 @@
+.headimage {
+    padding-bottom: 40rpx;
+}
+
+.headimage .cover {
+    width: 100%;
+}

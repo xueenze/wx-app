@@ -1,1 +1,3 @@
 @import "../../../../components/paragraph/paragraph.wxss";
+@import "../../../../components/chart/bar/bar.wxss";
+@import "../../../../components/chart/line/line.wxss";

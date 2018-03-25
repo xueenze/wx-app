@@ -1,0 +1,6 @@
+<template name="chart-bar">
+    <view class="bar-container">
+        <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ecBar }}">
+        </ec-canvas>
+    </view>
+</template>

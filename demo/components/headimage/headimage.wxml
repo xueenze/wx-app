@@ -1,0 +1,6 @@
+<template name="headimage">
+    <view class="headimage">
+        <image class="cover" src="{{ imgUrl }}" mode="widthFix">
+        </image>
+    </view>
+</template>

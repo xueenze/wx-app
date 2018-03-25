@@ -2,7 +2,8 @@
     "pages": [
         "pages/index/index",
         "pages/logs/logs",
-        "pages/detail/data/yuewen/yuewen"
+        "pages/detail/data/yuewen/yuewen",
+        "pages/detail/aboutme/aboutme"
     ],
     "window": {
         "backgroundTextStyle": "light",

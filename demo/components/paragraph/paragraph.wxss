@@ -1,23 +1,23 @@
-.paragraph{
+.paragraph {
     margin: 50rpx;
 }
 
-.paragraph .title{
+.paragraph .title {
     font-size: 50rpx;
     font-weight: bolder;
     color: #000000;
     display: block;
 }
 
-.paragraph .sub-title{
+.paragraph .sub-title {
     font-size: 35rpx;
     font-weight: 300;
     color: #e6e6e6;
     display: block;
-    margin:20rpx 0;
+    margin: 20rpx 0;
 }
 
-.paragraph .content{
+.paragraph .content {
     font-size: 30rpx;
     color: #000000;
     line-height: 40rpx;

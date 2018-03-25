@@ -1,0 +1,9 @@
+<import src="../../../components/lifecycle/lifecycle.wxml" />
+<import src="../../../components/headimage/headimage.wxml" />
+
+<view class="aboutme-container">
+    <template is="headimage" data="{{ imgUrl: headImageUrl }}"/>
+    <block wx:for="{{ lifecycles }}" wx:for-item="life" wx:key="life.id">
+        <template is="lifecycle" data="{{ lifecycle: life }}"/>
+    </block>
+</view>

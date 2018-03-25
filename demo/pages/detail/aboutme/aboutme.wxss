@@ -1,0 +1,5 @@
+@import "../../../components/lifecycle/lifecycle.wxss";
+@import "../../../components/headimage/headimage.wxss";
+.aboutme-container {
+    background-color: #fbf7ed;
+}

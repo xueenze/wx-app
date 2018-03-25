@@ -1,5 +1,10 @@
 <import src="../../../../components/paragraph/paragraph.wxml" />
+<import src="../../../../components/chart/line/line.wxml" />
+<import src="../../../../components/chart/bar/bar.wxml" />
 
 <view class="content-container">
-    <template is="paragraph" data="{{ p: paragraph1 }}"/>
+    <template is="paragraph" data="{{ p: section1.paragraph }}"/>
+    <template is="chart-bar" data="{{ ecBar: section1.ecBar }}"/>
+    <template is="paragraph" data="{{ p: section2.paragraph }}"/>
+    <template is="chart-line" data="{{ ecLine: section2.ecLine }}"/>
 </view>
