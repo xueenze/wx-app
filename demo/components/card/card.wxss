@@ -1,8 +1,7 @@
 .card{
     overflow: hidden;
     position: relative;
-    margin-bottom: 20rpx;
-    margin: 0 20rpx;
+    margin: 20rpx;
 }
 
 .card::before{
