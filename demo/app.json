@@ -2,13 +2,14 @@
     "pages": [
         "pages/index/index",
         "pages/detail/data/yuewen/yuewen",
-        "pages/detail/aboutme/aboutme"
+        "pages/detail/aboutme/aboutme",
+        "pages/detail/analysis/smallgame/smallgame"
     ],
     "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#4abdcc",
         "navigationBarTitleText": "乌鸦的巢",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "white"
     },
     "tabBar": {
         "color": "#7A7E83",

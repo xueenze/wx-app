@@ -1,0 +1,11 @@
+<template name="paragraphwithimage">
+    <view class="paragraphwithimage">
+        <view class="photo">
+            <image class="cover" src="{{ paragraphwithimage.imageUrl }}" mode="widthFix">
+            </image>
+        </view>
+        <view class="content">
+            {{ paragraphwithimage.content }}
+        </view>
+    </view>
+</template>

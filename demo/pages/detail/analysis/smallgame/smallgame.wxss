@@ -1,0 +1,5 @@
+@import "../../../../components/paragraphwithimage/paragraphwithimage.wxss";
+
+.smallgame-container{
+    background-color: #fbf7ed;
+}
