@@ -1,5 +1,19 @@
 <template name="card">
-    <view class="card-list">
-        <image class="cover" src="{{ card.imageUrl }}" alt=""></image>
+    <view class="card">
+        <image class="cover" src="{{ card.imageUrl }}" mode="widthFix"></image>
+        <view class="info">
+            <text class="h2">
+                {{ card.title }}
+            </text>
+            <view class="detail">
+                <view>
+                    <text>{{ card.subTitle }}</text>
+                    <text class="sub-title"style="">{{ card.addDate }} 撰写</text>
+                </view>
+                <view class="place">
+                    {{ trip.popular_place_str }}
+                </view>
+            </view>
+        </view>
     </view>
 </template>
