@@ -40,10 +40,10 @@
 
 .lifecycle .life-point .content {
     background-color: #fff;
-    padding: 10rpx 20rpx;
-    color: #5c5c5c;
+    padding: 20rpx;
+    color: #a8915e;
     word-break: break-word;
-    font-size: 30rpx;
+    font-size: 35rpx;
 }
 
 .lifecycle .life-point .shot-stats {
