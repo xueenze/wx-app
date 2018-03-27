@@ -36,7 +36,7 @@
 }
 
 .card .info .h2{
-  font-size: 36rpx;
+  font-size: 45rpx;
   font-weight: 600;
   line-height: 1.22;
   text-shadow: 2rpx 2rpx rgba(0,0,0,.4);
@@ -49,10 +49,10 @@
 }
 
 .card .detail{
-  margin-top: 10rpx;
+  margin-top: 20rpx;
   padding-left: 18rpx;
   position: relative;
-  font-size: 18rpx;
+  font-size: 25rpx;
   line-height: 1;
   font-weight: bold;
   text-shadow: 2rpx 4rpx 0px rgba(0,0,0,0.20);

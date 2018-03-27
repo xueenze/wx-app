@@ -1,7 +1,14 @@
 <template name="paragraph">
     <view class="paragraph">
-        <text class="title">{{ p.title }}</text>
-        <text class="sub-title">{{ p.subTitle }}</text>
-        <text class="content">{{ p.content }}</text>
+        <text class="title">{{ paragraph.title }}</text>
+        <text class="sub-title">{{ paragraph.subTitle }}</text>
+        <view wx:if="{{ paragraph.imageUrl }}"
+            class="photo">
+            <image class="cover" src="{{ paragraph.imageUrl }}" mode="widthFix"></image>
+        </view>
+        <block wx:for="{{ paragraph.contents }}"
+            wx:for-index="idx" wx:for-item="content">
+            <text class="content">{{ content }}</text>
+        </block>
     </view>
 </template>

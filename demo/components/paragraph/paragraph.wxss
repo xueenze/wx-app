@@ -3,16 +3,16 @@
 }
 
 .paragraph .title {
-    font-size: 50rpx;
+    font-size: 40rpx;
     font-weight: bolder;
-    color: #000000;
+    color: #a8915e;
     display: block;
 }
 
 .paragraph .sub-title {
     font-size: 35rpx;
     font-weight: 300;
-    color: #e6e6e6;
+    color: #999;
     display: block;
     margin: 20rpx 0;
 }
@@ -20,6 +20,13 @@
 .paragraph .content {
     font-size: 30rpx;
     color: #000000;
-    line-height: 40rpx;
+    line-height: 50rpx;
     display: block;
+}
+
+.paragraph .photo .cover{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 8rpx;
+    margin: 30rpx 0;
 }

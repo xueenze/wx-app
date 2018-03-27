@@ -1,5 +1,5 @@
 <template name="card">
-    <view class="card">
+    <view class="card" data-url="{{ card.redirctUrl }}" bindtap="gotoDetail">
         <image class="cover" src="{{ card.imageUrl }}" mode="widthFix"></image>
         <view class="info">
             <text class="h2">

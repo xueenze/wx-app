@@ -1,0 +1,11 @@
+<template name="usertitle">
+    <view class="detail-top">
+        <image class="detail-user" src="{{ title.userImage }}"></image>
+        <view class="detail-info">
+            <view class="h1">{{ title.name }}</view>
+            <view class="detail">
+                <text>{{ title.addDate }}</text>
+            </view>
+        </view>
+  </view>
+</template>

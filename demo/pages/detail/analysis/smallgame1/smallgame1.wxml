@@ -1,0 +1,11 @@
+<import src="../../../../components/paragraphwithimage/paragraphwithimage.wxml" />
+<import src="../../../../components/paragraph/paragraph.wxml" />
+<import src="../../../../components/usertitle/usertitle.wxml" />
+
+<view class="smallgame-container">
+    <template is="usertitle" data="{{ title }}"/>
+    <block wx:for="{{ sections }}"
+        wx:for-item="section" wx:key="section.id">
+        <template is="paragraph" data="{{ paragraph: section }}"/>
+    </block>
+</view>

@@ -8,5 +8,11 @@ Page({
         windowWidth: App.systemInfo.windowWidth,
         windowHeight: App.systemInfo.windowHeight
     },
-    onLoad: function() {}
+    onLoad: function() {},
+    gotoDetail: function(e) {
+        const ds = e.currentTarget.dataset;
+        wx.redirectTo({
+            url: ds.url
+        });
+    }
 });
