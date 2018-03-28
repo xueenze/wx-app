@@ -3,10 +3,18 @@ import * as echarts from '../../../../lib/ec-canvas/echarts';
 import { mock } from '../../../../mock/data/yuewen/mock';
 
 Page({
+    onShareAppMessage: function(res) {
+        return {
+            title: "【阅文集团】2017 年度财报",
+            path: '/pages/detail/data/yuewen/yuewen',
+            success: function() {},
+            fail: function() {}
+        }
+    },
     data: {
-      title: {
+        title: {
             userImage: "/images/me.jpg",
-            name: "【王者荣耀】现象级手游 浅析",
+            name: "【阅文集团】2017 年度财报",
             addDate: "2018-01-03"
 
         },
@@ -28,7 +36,7 @@ Page({
         },
         section2: {
             paragraph: mock[1].paragraph,
-            ecLine: {
+            ecBar: {
                 onInit: function(canvas, width, height) {
                     const chart = echarts.init(canvas, null, {
                         width: width,
@@ -60,7 +68,7 @@ Page({
         },
         section4: {
             paragraph: mock[3].paragraph,
-            ecPie: {
+            ecLine: {
                 onInit: function(canvas, width, height) {
                     const chart = echarts.init(canvas, null, {
                         width: width,
@@ -73,6 +81,28 @@ Page({
                     return chart;
                 }
             },
+        },
+        section5: {
+            paragraph: mock[4].paragraph,
+            ecPie: {
+                onInit: function(canvas, width, height) {
+                    const chart = echarts.init(canvas, null, {
+                        width: width,
+                        height: height
+                    });
+                    canvas.setChart(chart);
+                    this.chart = chart;
+                    chart.setOption(mock[4].option);
+
+                    return chart;
+                }
+            },
+        },
+        section6: {
+            paragraph: mock[5].paragraph,
+        },
+        section7: {
+            paragraph: mock[6].paragraph,
         }
     },
     onLoad: function() {

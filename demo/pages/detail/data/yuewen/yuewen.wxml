@@ -10,11 +10,18 @@
     <template is="chart-bar" data="{{ ecBar: section1.ecBar }}"/>
 
     <template is="paragraph" data="{{ paragraph: section2.paragraph }}"/>
-    <template is="chart-line" data="{{ ecLine: section2.ecLine }}"/>
+    <template is="chart-bar" data="{{ ecBar: section2.ecBar }}"/>
 
     <template is="paragraph" data="{{ paragraph: section3.paragraph }}"/>
     <template is="chart-line" data="{{ ecLine: section3.ecLine }}"/>
 
     <template is="paragraph" data="{{ paragraph: section4.paragraph }}"/>
-    <template is="chart-pie" data="{{ ecPie: section4.ecPie }}"/>
+    <template is="chart-line" data="{{ ecLine: section4.ecLine }}"/>
+
+    <template is="paragraph" data="{{ paragraph: section5.paragraph }}"/>
+    <template is="chart-pie" data="{{ ecPie: section5.ecPie }}"/>
+
+    <template is="paragraph" data="{{ paragraph: section6.paragraph }}"/>
+
+    <template is="paragraph" data="{{ paragraph: section7.paragraph }}"/>
 </view>

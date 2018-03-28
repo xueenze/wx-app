@@ -1,6 +1,14 @@
 import { mock } from '../../../../mock/dataoperation/mock';
 
 Page({
+    onShareAppMessage: function(res) {
+        return {
+            title: "【数据可视化】整理",
+            path: '/pages/detail/analysis/dataoperation/dataoperation',
+            success: function() {},
+            fail: function() {}
+        }
+    },
     data: {
         title: {
             userImage: "/images/me.jpg",

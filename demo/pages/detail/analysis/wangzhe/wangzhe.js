@@ -1,6 +1,14 @@
 import { mock } from '../../../../mock/wangzhe/mock';
 
 Page({
+    onShareAppMessage: function(res) {
+        return {
+            title: "【王者荣耀】现象级手游 浅析",
+            path: '/pages/detail/analysis/wangzhe/wangzhe',
+            success: function() {},
+            fail: function() {}
+        }
+    },
     data: {
         title: {
             userImage: "/images/me.jpg",

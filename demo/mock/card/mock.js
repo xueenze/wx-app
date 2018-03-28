@@ -5,7 +5,7 @@ export const mock = [{
     subTitle: "微信小游戏",
     addDate: "2017-12-30",
     redirctUrl: "/pages/detail/analysis/smallgame1/smallgame1"
-},{
+}, {
     id: 2,
     imageUrl: "/images/card/1.jpg",
     title: "【微信跳一跳】浅析（下）",
@@ -46,5 +46,5 @@ export const mock = [{
     title: "【阅文集团】2017 年度财报",
     subTitle: "小程序 数据分析 初嗅",
     addDate: "2018-03-24",
-    redirctUrl: ""
+    redirctUrl: "/pages/detail/data/yuewen/yuewen"
 }];
