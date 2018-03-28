@@ -1,10 +1,20 @@
 <import src="../../../../components/paragraph/paragraph.wxml" />
+<import src="../../../../components/usertitle/usertitle.wxml" />
 <import src="../../../../components/chart/line/line.wxml" />
 <import src="../../../../components/chart/bar/bar.wxml" />
+<import src="../../../../components/chart/pie/pie.wxml" />
 
-<view class="content-container">
-    <template is="paragraph" data="{{ p: section1.paragraph }}"/>
+<view class="yuewen-container">
+    <template is="usertitle" data="{{ title }}"/>
+    <template is="paragraph" data="{{ paragraph: section1.paragraph }}"/>
     <template is="chart-bar" data="{{ ecBar: section1.ecBar }}"/>
-    <template is="paragraph" data="{{ p: section2.paragraph }}"/>
+
+    <template is="paragraph" data="{{ paragraph: section2.paragraph }}"/>
     <template is="chart-line" data="{{ ecLine: section2.ecLine }}"/>
+
+    <template is="paragraph" data="{{ paragraph: section3.paragraph }}"/>
+    <template is="chart-line" data="{{ ecLine: section3.ecLine }}"/>
+
+    <template is="paragraph" data="{{ paragraph: section4.paragraph }}"/>
+    <template is="chart-pie" data="{{ ecPie: section4.ecPie }}"/>
 </view>

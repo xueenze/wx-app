@@ -3,7 +3,7 @@
  * @param {*} x 
  * @param {*} y 
  */
-const getSimpleBarOption = (x, y) => {
+const getSimpleBarOption = (options) => {
     return {
         grid: {
             left: 20,

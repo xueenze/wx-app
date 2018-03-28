@@ -32,7 +32,7 @@ export const mock = [{
     title: "【数据可视化】整理",
     subTitle: "报表使用总结",
     addDate: "2018-03-01",
-    redirctUrl: ""
+    redirctUrl: "/pages/detail/analysis/dataoperation/dataoperation"
 }, {
     id: 6,
     imageUrl: "/images/card/5.jpg",

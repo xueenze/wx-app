@@ -1,0 +1,6 @@
+<template name="chart-pie">
+    <view class="pie-container">
+        <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ecPie }}">
+        </ec-canvas>
+    </view>
+</template>

@@ -1,3 +1,9 @@
 @import "../../../../components/paragraph/paragraph.wxss";
 @import "../../../../components/chart/bar/bar.wxss";
 @import "../../../../components/chart/line/line.wxss";
+@import "../../../../components/chart/pie/pie.wxss";
+@import "../../../../components/usertitle/usertitle.wxss";
+
+.yuewen-container{
+  background-color: #fbf7ed;
+}

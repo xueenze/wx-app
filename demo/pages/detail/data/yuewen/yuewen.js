@@ -2,25 +2,27 @@ import * as echarts from '../../../../lib/ec-canvas/echarts';
 
 import { mock } from '../../../../mock/data/yuewen/mock';
 
-import { getSimpleBarOption, getSimpleLineOption } from '../../../../utils/chart';
-
 Page({
     data: {
+      title: {
+            userImage: "/images/me.jpg",
+            name: "【王者荣耀】现象级手游 浅析",
+            addDate: "2018-01-03"
+
+        },
         section1: {
             paragraph: mock[0].paragraph,
             ecBar: {
                 onInit: function(canvas, width, height) {
-                    const barChart = echarts.init(canvas, null, {
+                    const chart = echarts.init(canvas, null, {
                         width: width,
                         height: height
                     });
-                    canvas.setChart(barChart);
+                    canvas.setChart(chart);
+                    this.chart = chart;
+                    chart.setOption(mock[0].option);
 
-                    // 将 barChart 绑定到 this，以供其他函数访问
-                    this.barChart = barChart;
-                    barChart.setOption(getSimpleBarOption(mock[0].data.x, mock[0].data.y));
-
-                    return barChart;
+                    return chart;
                 }
             },
         },
@@ -28,18 +30,49 @@ Page({
             paragraph: mock[1].paragraph,
             ecLine: {
                 onInit: function(canvas, width, height) {
-                    const lineChart = echarts.init(canvas, null, {
+                    const chart = echarts.init(canvas, null, {
                         width: width,
                         height: height
                     });
-                    canvas.setChart(lineChart);
+                    canvas.setChart(chart);
+                    this.chart = chart;
+                    chart.setOption(mock[1].option);
 
-                    this.lineChart = lineChart;
-                    lineChart.setOption(getSimpleLineOption(mock[1].data.x, mock[1].data.y));
-
-                    return lineChart;
+                    return chart;
                 }
-            }
+            },
+        },
+        section3: {
+            paragraph: mock[2].paragraph,
+            ecLine: {
+                onInit: function(canvas, width, height) {
+                    const chart = echarts.init(canvas, null, {
+                        width: width,
+                        height: height
+                    });
+                    canvas.setChart(chart);
+                    this.chart = chart;
+                    chart.setOption(mock[2].option);
+
+                    return chart;
+                }
+            },
+        },
+        section4: {
+            paragraph: mock[3].paragraph,
+            ecPie: {
+                onInit: function(canvas, width, height) {
+                    const chart = echarts.init(canvas, null, {
+                        width: width,
+                        height: height
+                    });
+                    canvas.setChart(chart);
+                    this.chart = chart;
+                    chart.setOption(mock[3].option);
+
+                    return chart;
+                }
+            },
         }
     },
     onLoad: function() {

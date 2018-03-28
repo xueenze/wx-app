@@ -1,6 +1,6 @@
 .detail-top{
   overflow: hidden;
-  padding: 40rpx;
+  padding:40rpx 40rpx 0;
 }
 
 .detail-top .detail-user{
