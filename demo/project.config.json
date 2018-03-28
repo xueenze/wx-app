@@ -29,7 +29,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -47,6 +47,18 @@
 					"id": 2,
 					"name": "微信小游戏分析",
 					"pathName": "pages/detail/analysis/smallgame2/smallgame2",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "王者荣耀",
+					"pathName": "pages/detail/analysis/wangzhe/wangzhe",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "数据运营",
+					"pathName": "pages/detail/analysis/dataoperation/dataoperation",
 					"query": ""
 				}
 			]

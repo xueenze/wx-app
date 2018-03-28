@@ -1,0 +1,7 @@
+@import "../../../../components/paragraphwithimage/paragraphwithimage.wxss";
+@import "../../../../components/paragraph/paragraph.wxss";
+@import "../../../../components/usertitle/usertitle.wxss";
+
+.wangzhe-container{
+    background-color: #fbf7ed;
+}

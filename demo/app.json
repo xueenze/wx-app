@@ -4,7 +4,9 @@
         "pages/detail/data/yuewen/yuewen",
         "pages/detail/aboutme/aboutme",
         "pages/detail/analysis/smallgame1/smallgame1",
-        "pages/detail/analysis/smallgame2/smallgame2"
+        "pages/detail/analysis/smallgame2/smallgame2",
+        "pages/detail/analysis/wangzhe/wangzhe",
+        "pages/detail/analysis/dataoperation/dataoperation"
     ],
     "window": {
         "backgroundTextStyle": "#4abdcc",
