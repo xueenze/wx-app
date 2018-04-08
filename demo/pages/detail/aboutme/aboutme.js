@@ -1,22 +1,39 @@
-import { mock } from '../../../mock/aboutme/mock';
+import api from '../../../utils/api';
 
 const App = getApp();
 
 Page({
     onShareAppMessage: function(res) {
         return {
-            title: "这是乌鸦巢里的胖乌鸦",
+            title: "这是胖乌鸦巢里的胖乌鸦",
             path: '/pages/detail/aboutme/aboutme',
             success: function() {},
             fail: function() {}
         }
     },
     data: {
-        lifecycles: mock,
+        lifecycles: [],
         headImageUrl: "/images/aboutme/head.jpg",
         windowWidth: App.systemInfo.windowWidth
     },
     onLoad: function() {
-        console.log("进入关于 关于我 页面");
+        this.initData();
+    },
+    // 初始化页面数据
+    initData() {
+        wx.showLoading();
+        const self = this;
+        api.getAboutMe({
+            success: (res) => {
+                if (res.data.code == 0) {
+                    self.setData({
+                        lifecycles: res.data.data
+                    });
+                }
+            },
+            complete: (res) => {
+                wx.hideLoading();
+            }
+        });
     }
 });
