@@ -30,8 +30,18 @@ const wxRequest = (params, url) => {
 // 获取关于我的数据
 const getAboutMe = (params) => {
     wxRequest(params, `${apiURL}/aboutme`);
-}
+};
+
+const getAnalysisDataOperation = (params) => {
+    wxRequest(params, `${apiURL}/ayalysis/dataoperation`);
+};
+
+const getIndex = (params) => {
+    wxRequest(params, `${apiURL}/index`);
+};
 
 module.exports = {
-    getAboutMe
+    getAboutMe,
+    getAnalysisDataOperation,
+    getIndex
 };
