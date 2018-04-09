@@ -11,5 +11,5 @@ export const config = {
 
     dev_assets_url_prefix: "http://127.0.0.1:8080",
 
-    env: "local"
+    env: "pro"
 };
