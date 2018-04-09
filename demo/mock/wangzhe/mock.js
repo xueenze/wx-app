@@ -2,66 +2,65 @@ export const mock = [{
     id: 1,
     title: "王者荣耀概况",
     subTitle: "王者荣耀定位为“5V5英雄公平对战手游”",
-    imageUrl: "/images/wangzhe/1.jpg",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/1.jpg",
     contents: ["作为MOBA类多人联机在线竞技手游，王者荣耀已经形成较为成熟的游戏模式、商业模式和社交系统。"]
-},{
+}, {
     id: 2,
     title: "观点",
     subTitle: "",
-    imageUrl: "",
     contents: ["1.你有2亿战友，也有2亿敌人！2017年5月的王者荣耀用户规模超两亿，渗透率高达22.3%", "2.DAU、MAU半年翻倍！5月份日活跃用户达5412.8万人，月活跃用户达1.63亿，较去年12月数据增长100%", "3.日新增用户数相当于一个县的人口数！过去半年日均新增用户数达174.8万，而在春节期间和周末增长更为明显", "4.一天玩两次，最爱晚上玩。王者荣耀用户日均使用次数为2.33次，日均使用时长为47.2分钟，而晚9点-11点是游戏高峰期", "5.年轻化趋势明显，24岁以下的用户超过52%", "6.54%的玩家都是萌妹子！女性玩家占比超过男性", "7.群众基础广泛，二三线及以下城市用户占比达90.5%", "8.华东人民爱王者，约1/3的玩家来自华东地区；而最爱玩王者的城市top5分别为北京、广州、上海、郑州及重庆"]
-},{
+}, {
     id: 3,
     title: "王者荣耀发展历程",
     subTitle: "王者荣耀发展可基本分为三个阶段",
-    imageUrl: "/images/wangzhe/2.gif",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/2.gif",
     contents: ["1. 探索游戏定位", "2. 完善游戏功能", "3. 优化游戏体验"]
-},{
+}, {
     id: 4,
     title: "运营数据",
     subTitle: "王者荣耀渗透率及用户规模变化",
-    imageUrl: "/images/wangzhe/3.gif",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/3.gif",
     contents: ["截至2017年5月，王者荣耀市场渗透率高达22.3%，用户规模破两亿"],
-},{
+}, {
     id: 5,
     title: "王者荣耀日活跃用户",
     subTitle: "截至2017年5月，王者荣耀DAU均值约为5412.8万",
-    imageUrl: "/images/wangzhe/4.gif",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/4.gif",
     contents: ["极光大数据显示，2017年5月，王者荣耀DAU均值为5412.8万人，约为2016年12月的两倍。"]
-},{
+}, {
     id: 6,
     title: "王者荣耀月活跃用户",
     subTitle: "截至2017年5月，王者荣耀MAU约为1.63亿",
-    imageUrl: "/images/wangzhe/5.gif",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/5.gif",
     contents: ["极光大数据显示，2017年5月，王者荣耀MAU为1.63亿，相比2016年底增长超过一倍。"]
-},{
+}, {
     id: 7,
     title: "王者荣耀日新增用户量",
     subTitle: "王者荣耀过去半年日新增用户量均值约为174.8万。",
-    imageUrl: "/images/wangzhe/6.gif",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/6.gif",
     contents: []
-},{
+}, {
     id: 8,
     title: "王者荣耀30天留存率",
     subTitle: "王者荣耀30天留存率均值为55.9%",
-    imageUrl: "/images/wangzhe/7.gif",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/7.gif",
     contents: ["春节期间的新增用户的留存率比较低，可能是由于这段时间有大量非目标用户下载试用。"]
-},{
+}, {
     id: 9,
     title: "王者荣耀（用户使用习惯）",
     subTitle: "2017年5月，王者荣耀日均使用次数为2.33次",
-    imageUrl: "/images/wangzhe/8.gif",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/8.gif",
     contents: ["中午和夜晚为王者荣耀用户游戏高峰时段", "极光大数据显示，王者荣耀用户白天游戏高峰时段为12:00-13:00，占比为6.97%；晚间游戏高峰为21:00-23:00，共占比13.63%。"]
-},{
+}, {
     id: 10,
     title: "王者荣耀用户安卓手机占比",
     subTitle: "OPPO R9占比超10%",
-    imageUrl: "/images/wangzhe/10.gif",
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/10.gif",
     contents: ["使用安卓手机的王者荣耀用户中，近三成用户使用OPPO旗下产品", "OPPO和vivo包揽王者荣耀用户安卓手机型号占比top10，OPPO R9居首"]
-},{
+}, {
     id: 11,
     title: "对腾讯旗下产品较为青睐",
     subTitle: "26.7%王者荣耀用户未安装其他手游应用",
-    imageUrl: "/images/wangzhe/11.gif",
-    contents: ["26.7%王者荣耀用户未安装其他手游应用","王者荣耀平均安装周期为49.0天","王者荣耀用户最为偏好应用QQ、QQ音乐和快手", "王者荣耀用户最为偏好的手游为球球大作战，其次为穿越火线-枪战王者"]
+    imageUrl: "http://193.112.39.41/wxcrow/images/wangzhe/11.gif",
+    contents: ["26.7%王者荣耀用户未安装其他手游应用", "王者荣耀平均安装周期为49.0天", "王者荣耀用户最为偏好应用QQ、QQ音乐和快手", "王者荣耀用户最为偏好的手游为球球大作战，其次为穿越火线-枪战王者"]
 }];
