@@ -1,4 +1,5 @@
-import api from '../../../utils/api';
+import api from "../../../utils/api";
+import { config } from "../../../config";
 
 const App = getApp();
 
@@ -13,6 +14,7 @@ Page({
     },
     data: {
         lifecycles: [],
+        assetsPrefix: config.env === "local" ? config.dev_assets_url_prefix : config.pro_assets_url_prefix,
         headImageUrl: "/images/aboutme/head.jpg",
         windowWidth: App.systemInfo.windowWidth
     },
@@ -26,6 +28,9 @@ Page({
         api.getAboutMe({
             success: (res) => {
                 if (res.data.code == 0) {
+                    res.data.data.forEach(item => {
+                        item.imgUrl = self.data.assetsPrefix + item.imgUrl;
+                    });
                     self.setData({
                         lifecycles: res.data.data
                     });

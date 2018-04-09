@@ -1,4 +1,6 @@
-const apiURL = 'https://easy-mock.com/mock/5ac9d27a08baf056bb32c2ea';
+import { config } from "../config";
+
+const apiURL = config.pro_api_url_prefix;
 
 const wxRequest = (params, url) => {
     wx.request({
